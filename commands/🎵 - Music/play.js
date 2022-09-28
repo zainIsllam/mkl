@@ -34,7 +34,7 @@ module.exports = {
             new MessageEmbed()
             .setColor('#ccff48')
             .setAuthor({name: 'Tìm kiếm', iconURL: 'https://raw.githubusercontent.com/SudhanPlayz/Discord-MusicBot/master/assets/logo.gif'})
-            .setDescription(`🎵 | Đang tìm kiếm...`)
+            .setDescription(`🎵 | +play <ناوی گۆرانی یان لینک>`)
         ]})
 
         setTimeout(() => msg.delete() , 5000);
