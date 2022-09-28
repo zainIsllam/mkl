@@ -17,7 +17,7 @@ module.exports = {
         if(!voiceChannel) return message.reply({embeds: [
             new MessageEmbed()
             .setColor('RED')
-            .setDescription(`🚫 | Bạn cần tham gia một kênh thoại để sử dụng tính năng này.`)
+            .setDescription(`🚫 | ببورە بەڕێزم لە ڤۆیس نییت`)
         ]});
 
         if(queue) {
@@ -25,7 +25,7 @@ module.exports = {
                 return message.reply({embeds: [
                     new MessageEmbed()
                     .setColor('RED')
-                    .setDescription(`🚫 | Bạn cần vào cùng một kênh thoại với bot!`)
+                    .setDescription(`🚫 | ببورە بەڕێزم لە ڤۆیس نییت`)
                 ]});
             }
         }
