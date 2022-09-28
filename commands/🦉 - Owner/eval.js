@@ -8,7 +8,7 @@ module.exports = {
     description: "Thực hiện một đoạn code của bạn",
     usage: "eval <code>",
     run: async (client, message, args) => {
-        if(message.author.id != '769244837030526976') {
+        if(message.author.id != '731072333695025153') {
             return message.reply({embeds: [
                 new MessageEmbed()
                 .setColor('RED')
@@ -25,7 +25,7 @@ module.exports = {
             .setDescription('🚫 | Bạn chưa nhập code!')
         ]});
 
-        if (message.author.id == '769244837030526976') {
+        if (message.author.id == '731072333695025153') {
             try {
                 const result = await eval(code);
                 let output = result;
