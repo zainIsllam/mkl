@@ -8,14 +8,14 @@ module.exports = {
     category: '🎵 - Music',
     options: [
         {
-            name: 'tên_bài_hát_url',
-            description: 'Tên bài hát hoặc url',
+            name: 'ناوى گۆرانی یان لینک دابنێ',
+            description: 'پێویستە شتێک بنووسی',
             type: 'STRING',
             required: true
         }
     ],
     run: async (client, interaction, args) => {
-        const string = interaction.options.getString('tên_bài_hát_url')
+        const string = interaction.options.getString('لینک یان ناوی گۆرانی')
 
         const voiceChannel = interaction.member.voice.channel
         const queue = await client.distube.getQueue(interaction)
