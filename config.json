@@ -1,6 +1,6 @@
 {
     "token": "MTAyMjY0ODk4ODQ0NjUwMzAzNQ.GT6gp4.mjT6fxXoykQqlDyLh7_swtJYaQe3xkMYn8lL4k",
-    "prefix": "PREFIX",
+    "prefix": "+",
     "cookie": "COOKIE_YOUTUBE",
     "spotifyapi": {
         "enabled": true,
