@@ -2,7 +2,7 @@
 
 module.exports = {
     name: 'play',
-    description: 'Play a song from YouTube, SoundCloud, Spotify, Mixer, Twitch, Bandcamp, or a direct link.',
+    description: 'بۆ ئەوەی گۆرانیەک پێبکەی پێویستە ناوی یان لینکی گۆرانی دابنێی',
     aliases: ['p'],
     usage: '<song name>',
     category: '🎵 - Music',
